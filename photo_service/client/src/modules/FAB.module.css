@@ -1,0 +1,12 @@
+.FAB {
+    bottom: 50px;
+    right: 50px;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+    display: flex;
+}
+.FAB:hover {
+    transform: rotate(135deg);
+    background-color: lightcoral;
+    color: lightcoral;
+}
